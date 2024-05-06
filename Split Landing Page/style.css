@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --left-bg:rgba(87, 84, 236, 0.7);
+    --right-bg:rgba(43, 43, 43, 0.8);
+    --left-btn-hover:rgba(87, 84, 236, 1);
+    --right-btn-hover:rgba(28, 122, 28, 1);/*XBox green color*/
+    --hover-width:75%;
+    --other-width:25%;
+    --speed:1000ms;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+    margin: 0;
+    height: 100vh;
+}
+
+
+h1{
+    font-size: 4rem;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+
+.btn{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(-50%);
+    font-weight: bold;
+    text-transform: uppercase;
+    left: 50%;
+    top: 50%;
+    text-decoration: none;
+    color: #fff;
+    border: #fff solid 0.2rem;
+    font-size: 1rem;
+    width: 15rem;
+    padding: 1.5rem;
+
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #333;
+    
+}
+
+.split{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.split.right, 
+.split.left, 
+.split.left::before, 
+.split.right::before{
+    transition: all var(--speed) ease-in-out;
+}
+
+.split.left::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--left-bg);
+}
+
+.split.left .btn:hover{
+    background-color: var(--left-btn-hover);
+    border-color: var(--left-btn-hover);
+
+}
+
+.split.right .btn:hover{
+    background-color: var(--right-btn-hover);
+    border-color: var(--right-btn-hover);
+
+}
+
+.split.left{
+    left: 0;
+    background: url('https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt054c12973dc65d3e/60db71928491e60f790b1b87/f61138da5e0a3af7c7c83b6166f1cb03dbfee30f.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.split.right{
+    right: 0;
+    background: url('https://assets.xboxservices.com/assets/fb/d2/fbd2cb56-5c25-414d-9f46-e6a164cdf5be.png?n=XBX_A-BuyBoxBGImage01-D.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.split.right::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--right-bg);
+}
+
+.hover-left .left{
+    width: var(--hover-width);
+}
+
+.hover-left .right{
+    width: var(--other-width);
+}
+
+.hover-right .right{
+    width: var(--hover-width);
+}
+
+.hover-right .left{
+    width: var(--other-width);
+}
+
+@media(max-width: 800px) {
+    h1{
+        font-size: 2rem;
+        top: 30%;
+    }
+
+    .btn{
+        width: 12rem;
+        padding: 1.2rem;
+    }
+}
