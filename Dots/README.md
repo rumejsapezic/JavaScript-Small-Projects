@@ -8,7 +8,7 @@ We have dots slider containing of two buttons: previous and next. The previous b
 While pressing next button, we enabled the previous button.
 
 
-<img width="476" alt="dots2" src="https://github.com/rumejsapezic/JavaScript-Small-Projects/assets/77631994/0761a41e-7729-45bf-a5ba-395cd94b4f97">
+<img width="374" alt="dots2" src="https://github.com/rumejsapezic/JavaScript-Small-Projects/assets/77631994/c3e632e2-3b8d-4c16-aa63-6cc2bc816e39">
 
 
 
