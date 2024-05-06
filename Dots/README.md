@@ -2,8 +2,7 @@ Dots Slider
 
 We have dots slider containing of two buttons: previous and next. The previous button is disabled while being checked on first circle:
 
-
-<img width="424" alt="dots1" src="https://github.com/rumejsapezic/JavaScript-Small-Projects/assets/77631994/32b25ef0-67b2-4809-800c-eaac0e18c40e">
+<img width="361" alt="dots1" src="https://github.com/rumejsapezic/JavaScript-Small-Projects/assets/77631994/67ba5c86-681d-4a84-8004-2dc61ddc6ca2">
 
 While pressing next button, we enabled the previous button.
 
