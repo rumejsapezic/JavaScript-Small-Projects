@@ -8,6 +8,9 @@ Here we have a split between two pages presenting Playstation 5 and XBox Series 
 
 While hovering over the pages, the field expands and the buttons' background changes
 
+<img width="946" alt="landing4" src="https://github.com/rumejsapezic/JavaScript-Small-Projects/assets/77631994/b759e7f3-229d-4d58-94d2-eb226728c773">
+
+
 
 <img width="905" alt="landing2" src="https://github.com/rumejsapezic/JavaScript-Small-Projects/assets/77631994/aa831647-93e0-4d55-9731-541f33715df5">
 
