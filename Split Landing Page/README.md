@@ -11,10 +11,6 @@ While hovering over the pages, the field expands and the buttons' background cha
 <img width="922" alt="landing4" src="https://github.com/rumejsapezic/JavaScript-Small-Projects/assets/77631994/4551ce49-2e86-49a1-a600-25c5c5dd25ba">
 
 
-
-
-<img width="905" alt="landing2" src="https://github.com/rumejsapezic/JavaScript-Small-Projects/assets/77631994/aa831647-93e0-4d55-9731-541f33715df5">
-
 <img width="916" alt="landing3" src="https://github.com/rumejsapezic/JavaScript-Small-Projects/assets/77631994/a3b9751c-f54f-4915-b536-61ab797593c5">
 
 
